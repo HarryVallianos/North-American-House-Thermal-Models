@@ -1,0 +1,17 @@
+﻿Column name,Explanation,Units
+name,Name of the final model,-
+fit,"Fit classification according to the nCBPES. Can be good, close, or poor.",-
+climate,"Köppen-Geiger climate code of the location. Can be Dfa, BWh, Cfa, BSk, Dfb, Csa, Csb, or other.",-
+order,"Order of the model. Can be 1, 2, 3, 4, or 5.",-
+nCPBES,Normalized Cumulative Periodogram Boundary Excess Sum.,-
+RMSE_{time},"Multi-step Root Mean Squared Error of the model for {time}. {time} can be 5min, 15min, 1h, 4h, 6h, 8h, 12h, 24h.",°C
+ite_{number},"Type of the resulting model on iteration {number}. {number} can be 1, 2, 3, 4, 5, 6, 7, or 8, with 8 being the full model. ",-
+tau_{node},"Time constant of {node}. {node} can be e for envelope, m for internal mass, i for interior, h for heater, or s for sensor.",hr
+T{node}_ini,"Initial temperature of {node}. {node} can be e for envelope, m for internal mass, i for interior, h for heater, or s for sensor.",-
+Ci/C{node},"Thermal capacitance ratio of node i and {node}. {node} can be e for envelope, m for internal mass, h for heater, or s for sensor.",-
+R{variable}Ci,"Thermal resistance times thermal capacitance of node i. {variable} can be ie, im, ia, ih, is, or ea.",hr
+Qnom{variable}/Ci,"Ratio of installed power to thermal capacitance of node i. {variable} can be h1 for heating system 1, h2 for heating sysem 2, or c for cooling system.",°C/s
+a{variable}/Ci,Ratio of solar factor to thermal capacitnace of node i. {variable} can be i for interior or e  for envelope.,m2K/J
+{variable}_p,p value of {variable}. {variable} can be any parameter calibrated by the model.,-
+{variable}_std,Standard error of {variable}. {variable} can be any parameter calibrated by the model.,-
+significance_prop,Percentage of calibrated parameters that are considered significant according to their p-value.,%
