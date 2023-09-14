@@ -8,8 +8,8 @@ For more information prease refer to our article:
 ## Repository structure
 
  North-American-House-Thermal-Models 
- * data
-  * calibrated_models.csv : Includes the model parameters for approcimately 60,000 houses in Canada and the United States.
+* data
+  * calibrated_models.csv : Includes the model parameters for approximately 60,000 houses in Canada and the United States.
   * description.csv       : Includes an explanation of what each column in `calibrated_modles.csv` represents and its units.
 
 * README
